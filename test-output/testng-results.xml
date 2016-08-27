@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64033" started-at="2016-08-27T09:55:31Z" finished-at="2016-08-27T09:56:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64033" started-at="2016-08-27T09:55:31Z" finished-at="2016-08-27T09:56:35Z">
+      <class name="scripts.SignUp">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.SignUp@51565ec2]" name="setup" is-config="true" duration-ms="58844" started-at="2016-08-27T16:55:31Z" finished-at="2016-08-27T16:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_SignUp()[pri:0, instance:scripts.SignUp@51565ec2]" name="test_SignUp" duration-ms="5133" started-at="2016-08-27T16:56:29Z" finished-at="2016-08-27T16:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_SignUp -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:scripts.SignUp@51565ec2]" name="teardown" is-config="true" duration-ms="17" started-at="2016-08-27T16:56:35Z" finished-at="2016-08-27T16:56:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test_SignUp status=SUCCESS method=SignUp.test_SignUp()[pri:0, instance:scripts.SignUp@51565ec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.SignUp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
