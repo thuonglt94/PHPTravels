@@ -13,8 +13,8 @@ public class SignUpPage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(css = ".show-submenu")
-	private WebElement linkAcount;
+	@FindBy(linkText = "My Account")
+	private WebElement linkMyAcount;
 
 	@FindBy(linkText = "Sign Up")
 	private WebElement linkSignUp;
@@ -40,6 +40,14 @@ public class SignUpPage {
 	@FindBy(css = ".signupbtn.btn_full.btn.btn-action.btn-block.btn-lg")
 	private WebElement btnSignUp;
 
+	public void clickLinkMyAccount() {
+		linkMyAcount.click();
+	}
+
+	public void clickLinkSignUp() {
+		linkSignUp.click();
+	}
+
 	public void enterFirstNameTextbox(String text) {
 		txtFirstName.clear();
 		txtFirstName.sendKeys(text);
@@ -52,7 +60,7 @@ public class SignUpPage {
 
 	}
 
-	public void entertPhoneTextbox(String text) {
+	public void enterPhoneTextbox(String text) {
 		txtPhone.clear();
 		txtPhone.sendKeys(text);
 
@@ -60,6 +68,7 @@ public class SignUpPage {
 
 	public void enterEmailTextbox(String text) {
 		txtEmail.clear();
+
 		txtEmail.sendKeys(text);
 
 	}

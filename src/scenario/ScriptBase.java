@@ -1,4 +1,4 @@
-package scripts;
+package scenario;
 
 import java.io.File;
 import java.io.IOException;
